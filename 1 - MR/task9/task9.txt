@@ -1,0 +1,3 @@
+Issue 1) Some of the vehicle plates in the data were having "blankplate" which was causing the data to be inconsistent.
+Issue 2) Some of the vehicles registration state were 99 which is not expected and possible for NYC parking data. The column registration table has to be consistent with appropriate values.
+Issue 3) As the parking data is having all the data that has been present through march 2017 and Open data is having all the data about summons number that are yet to be paid and still open. I observed that many of the open data summons number were missing in the parking violations data. That shows that both the data are not in the synchronized form. Open violations data was supposed to be subset of the Parking Violations data but that is not the case. 
